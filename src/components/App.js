@@ -1,14 +1,11 @@
 import React, { Component,PropTypes } from 'react';
-import Header from './common/Header';
-import AddContentBtn from './common/AddContentBtn';  
 
 class App extends Component {
   render() {
     return (
-      <div className="container">
-        <Header />
+      <div>
+        <span>Children will be here</span>
         {this.props.children}
-        <AddContentBtn />
       </div>
     );
   }
